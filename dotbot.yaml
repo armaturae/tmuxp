@@ -1,0 +1,13 @@
+- defaults:
+    link:
+        relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.tmux/tmuxp.projects.yaml: tmuxp/tmuxp.projects.yaml
+    ~/.tmux/tmuxp.home.yaml: tmuxp/tmuxp.home.yaml
+    ~/.tmux/tmuxp.monitoring.yaml: tmuxp/tmuxp.monitoring.yaml
+
+- create:
+    - ~/.tmux/
