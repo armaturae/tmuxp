@@ -5,9 +5,9 @@
 - clean: ['~']
 
 - link:
-    ~/.tmux/tmuxp.projects.yaml: tmuxp/tmuxp.projects.yaml
-    ~/.tmux/tmuxp.home.yaml: tmuxp/tmuxp.home.yaml
-    ~/.tmux/tmuxp.monitoring.yaml: tmuxp/tmuxp.monitoring.yaml
+    ~/.tmux/tmuxp.projects.yaml: tmuxp.projects.yaml
+    ~/.tmux/tmuxp.home.yaml: tmuxp.home.yaml
+    ~/.tmux/tmuxp.monitoring.yaml: tmuxp.monitoring.yaml
 
 - create:
     - ~/.tmux/
